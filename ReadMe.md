@@ -1,6 +1,6 @@
 ﻿<a name="br1"></a> 
 
-# Compiler Design: Programming Assignment III
+# Compiler Design: Phase 3
 ### Sharif University of Technology, Fall 1401
 
 ## Intermediate Code Generator (Plus Two Optional Tasks)
