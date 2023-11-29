@@ -5,15 +5,6 @@
 
 ## Intermediate Code Generator (Plus Two Optional Tasks)
 
-**(Intermediate Code Generator)**
-
-**(Plus two optional tasks)**
-
-**Released: Tuesday, 20/10/1401**
-
-**Due: Thursday, 13/11/1401 at 11:59pm**
-
-**1**
 
 **Introduction**
 
@@ -29,23 +20,8 @@ course. Besides, even if you did not implement the parser in the previous assign
 
 use the parsers from other students/groups. In such a case, you need to implement a parser, too.
 
-**2**
 
 **Intermediate Code Generator Specification**
-
-In this assignment, you will implement the intermediate code generator with the following
-
-characteristics:
-
-●
-
-●
-
-●
-
-●
-
-●
 
 The code generator is called by the parser to perform a code generation task, which can be
 
@@ -65,7 +41,6 @@ associated with the received action symbol (based on the technique introduced in
 
 Generated three-address codes are saved in an output text file called '**output.txt**'.
 
-**3**
 
 **Augmented C-minus Grammar**
 
@@ -85,17 +60,6 @@ semantic stack and/or generating a number of three address codes. Note that **yo
 
 **note 8)**. Consequently, you will need to regenerate your parse table.
 
-**4**
-
-**Intermediate Code Generation**
-
-The intermediate code generation is performed with the same method that was introduced in
-
-Lecture **8**. All the programming constructs defined by the given C-minus grammar must be supported
-
-by your intermediate code generator, with the exception of nested procedures/functions and
-
-
 
 <a name="br2"></a> 
 
@@ -110,16 +74,6 @@ assignment is composed of the implementation of a **semantic analyzer** for your
 section **6**), and the second optional part includes the implementation of **non-recursive function**
 
 **calls** and **return statements** (see section **9**).
-
-In implementing the required semantic routines for the intermediate code generation, you should
-
-pay attention to the following points:
-
-●
-
-●
-
-●
 
 Every input program may include a number of global variables and a main function with the
 
@@ -137,13 +91,10 @@ the result of a '**relop**' operation that is **true**, will be '**1**'. Alterna
 
 operation is '**false**', its value will be '**0**'.
 
-●
-
 You should implicitly define a function called '**output**' with the signature '**void output (int a);**'
 
 which prints its argument (an integer) as the main program's output.
 
-**5**
 
 **Available Three address Codes**
 
@@ -371,27 +322,15 @@ output (prod);
 
 **Fig. 2 'Output.txt' Sample**
 
-**6**
 
 **Semantic Analyser Specification (Optional task 1)**
 
-As it was mentioned above, in this assignment, the implementation of the semantic analyzer is. If you
-
-choose to implement this optional part, your semantic analyzer must have the following
-
-characteristics:
-
-●
-
-●
 
 The semantic analyzer is called by the parser to perform semantic checks.
 
 Semantic analysis is performed in the same pass as other compilation tasks are performed
 
 (because the compiler is supposed to be a **one-pass compiler**).
-
-●
 
 Semantic analysis is performed in a manner very similar to the one explained in Lecture 9 for
 
@@ -405,13 +344,10 @@ pops the action symbol and passes it as an argument to the semantic analyzer (i.
 
 **routine**, and the control will return to the parser.
 
-●
-
 Semantic errors are reported by appropriate error messages that are saved in an output text
 
 file called '**semantic\_errors.txt**'.
 
-**7**
 
 **Required Semantic Checks**
 
@@ -491,7 +427,6 @@ In the case that the input program is semantically correct, the file '**semantic
 
 contain a sentence such as: '**The input program is semantically correct**'.
 
-**8**
 
 **Semantic Error Handling**
 
@@ -505,7 +440,6 @@ the input program contains any semantic error. In such cases, the '**output.txt*
 
 sentence '**The output code has not been generated**'.
 
-**9**
 
 **Generating code for function calls and return statements (Optional task 2)**
 
@@ -599,13 +533,11 @@ output(i);
 
 Before submitting, please ensure you have done the following:
 
-•
 
 It is your responsibility to ensure that the final version you submit does not have any debug
 
 print statements.
 
-•
 
 You should submit a file named '**compiler.py**', which includes the Python code of the scanner,
 
@@ -615,9 +547,6 @@ your **full name(s)** and **student number(s)**, and any reference that you may 
 
 comment at the top of '**compiler.py**'.
 
-•
-
-•
 
 Your parser should be the main module of the compiler so that by calling the parser, the
 
@@ -629,7 +558,6 @@ code will have a negative effect on your grade, so take the extra time to make y
 
 readable.
 
-•
 
 Your compiler will be tested by running the command line '**python3 compiler.py**' in Ubuntu
 
@@ -647,7 +575,6 @@ responsibility to make sure that your code works properly using the mentioned OS
 
 Python interpreter.
 
-•
 
 Submitted codes will be tested and graded using several different test cases (i.e., several
 
@@ -687,17 +614,7 @@ to QJS. After the assignment's deadline is passed, the five test cases plus half
 
 samples will be used to evaluate your compiler.
 
-•
-
-•
-
-
-
 <a name="br7"></a> 
-
-•
-
-•
 
 Similarly, you will also receive a number of samples and test cases for the optional parts of
 
@@ -716,10 +633,6 @@ all the required files should be read from the same directory as '**compiler.py*
 I will place all your submitted files in the same plain directory including a test case, and
 
 execute the '**python3 compiler.py**' command.
-
-•
-
-•
 
 You should upload your program files ('**compiler.py**' and any other files that your programs
 
