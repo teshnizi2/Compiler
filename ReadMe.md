@@ -1,8 +1,9 @@
 ﻿<a name="br1"></a> 
 
-40-414 – Compiler Design, fall 1401, Sharif University of Technology
+# Compiler Design: Programming Assignment III
+### Sharif University of Technology, Fall 1401
 
-**Programming Assignment III**
+## Intermediate Code Generator (Plus Two Optional Tasks)
 
 **(Intermediate Code Generator)**
 
